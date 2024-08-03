@@ -10,6 +10,6 @@ public class DummyCustomListener implements ITestListener{
 	}
 	@Override
 	public void onTestFailure(ITestResult result) {
-		System.out.println(result.getThrowable().getMessage());
+		System.out.println("test failed and the message is: "+result.getThrowable().getMessage());
 	}
 }
