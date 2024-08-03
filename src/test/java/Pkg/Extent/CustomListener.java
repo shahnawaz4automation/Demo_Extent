@@ -8,6 +8,7 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 
 public class CustomListener implements ITestListener {
+	//Listern - listens to the configured event then performs action (class/suite level)
 	@Override
 	//onTestSuccess this method will be invoked
 	public void onTestSuccess(ITestResult result) {
