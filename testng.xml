@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<listeners>
-		<listener class-name="Pkg.Extent.DummyCustomListener"></listener>
+		<listener class-name="Pkg.Extent.CustomListener"></listener>
 	</listeners>
   <test thread-count="5" name="Test">
     <classes>
