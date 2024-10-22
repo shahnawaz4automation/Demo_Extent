@@ -51,9 +51,6 @@ public class Sun1105Demo {
 		logger.info("3");
 		logger.info("4");
 		
-		System.out.println(getClass().getPackageName());
-		softAssert.assertAll();
-		
 		driver.switchTo().newWindow(WindowType.TAB);
 		driver.switchTo().newWindow(WindowType.WINDOW);
 	}
